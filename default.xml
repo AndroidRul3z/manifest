@@ -240,7 +240,7 @@
   <project path="packages/apps/CertInstaller" name="CyanogenMod/android_packages_apps_CertInstaller" groups="pdk-cw-fs,pdk-fs" />
   <project path="packages/apps/Contacts" name="CyanogenMod/android_packages_apps_Contacts" groups="pdk-fs" />
   <project path="packages/apps/ContactsCommon" name="CyanogenMod/android_packages_apps_ContactsCommon" groups="pdk-fs" />
-  <project path="packages/apps/DeskClock" name="CyanogenMod/android_packages_apps_DeskClock" groups="pdk-fs" />
+  <project path="packages/apps/DeskClock" name="AndroidRul3z/android_packages_apps_DeskClock" groups="pdk-fs" remote="github" revision="android-m" />
   <project path="packages/apps/Dialer" name="CyanogenMod/android_packages_apps_Dialer" groups="pdk-fs" />
   <project path="packages/apps/Email" name="CyanogenMod/android_packages_apps_Email" groups="pdk-fs" />
   <project path="packages/apps/ExactCalculator" name="CyanogenMod/android_packages_apps_ExactCalculator" groups="pdk-fs" />
@@ -299,7 +299,7 @@
   <project path="packages/wallpapers/NoiseField" name="CyanogenMod/android_packages_wallpapers_NoiseField" groups="pdk-fs" />
   <project path="packages/wallpapers/PhaseBeam" name="CyanogenMod/android_packages_wallpapers_PhaseBeam" groups="pdk-fs" />
   <project path="packages/wallpapers/PhotoPhase" name="CyanogenMod/android_packages_wallpapers_PhotoPhase" />
-  <project path="prebuilts/cmsdk" name="CyanogenMod/android_prebuilts_cmsdk" clone-depth="1" revision="master" />
+  <project path="prebuilts/cmsdk" name="AndroidRul3z/android_prebuilts_cmsdk" clone-depth="1" remote="github" revision="master" />
   <project path="system/bt" name="CyanogenMod/android_system_bt" groups="pdk" />
   <project path="system/core" name="AndroidRul3z/android_system_core" remote="github" revision="android-m" />
   <project path="system/extras" name="CyanogenMod/android_system_extras" groups="pdk" />
