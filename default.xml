@@ -31,7 +31,7 @@
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk" remote="github" revision="android-n" />
+  <project path="packages/apps/Snap" name="AndroidRul3z/android_packages_apps_Snap" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/core" name="AndroidRul3z/android_system_core" groups="pdk" remote="github" revision="android-n" />
   <project path="frameworks/av" name="AndroidRul3z/platform_frameworks_av" groups="pdk" remote="github" revision="android-n" />
