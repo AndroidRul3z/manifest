@@ -116,7 +116,7 @@
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="staging/cm-14.0" remote="github" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_lib/nfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="staging/cm-14.0" />  
