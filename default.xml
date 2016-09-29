@@ -45,18 +45,18 @@
   <project path="frameworks/opt/net/ims" name="platform_frameworks_opt_net_ims" groups="frameworks_ims,pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="development" name="platform_development" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="dalvik" name="platform_dalvik" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="external/fuse" name="platform_external_fuse" remote="rro" />
+  <project path="external/fuse" name="CyanogenMod/android_external_fuse" remote="github" revision="staging/cm-14.0" />
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
-  <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
-  <project path="art" name="platform_art" groups="pdk" remote="rro" />
+  <project path="bionic" name="CyanogenMod/android_bionic" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="art" name="CyanogenMod/android_art" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="vendor/purity" name="AndroidRul3z/android_vendor_purity" remote="github" revision="android-n" />
   <project path="manifest" name="AndroidRul3z/manifest" remote="github" revision="android-n" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="system/extras" name="platform_system_extras" remote="rro" />
   <project path="system/media" name="platform_system_media" remote="rro" />
   <project path="packages/apps/Settings" name="AndroidRul3z/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-n" />
-  <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
-  <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="external/f2fs-tools" name="CyanogenMod/android_external_f2fs-tools" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="external/ipsec-tools" name="CyanogenMod/android_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="github" revision="staging/cm-14.0" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
 	
 <!-- CyanogenMod -->
@@ -111,6 +111,9 @@
   <project path="external/ntfs-3g" name="CyanogenMod/android_external_ntfs-3g" revision="staging/cm-14.0" remote="github" />
   <project path="external/openssh" name="CyanogenMod/android_external_openssh" revision="staging/cm-14.0" remote="github" />
   <project path="external/rsync" name="CyanogenMod/android_external_rsync" revision="staging/cm-14.0" remote="github" />
+  <project path="external/ffmpeg" name="CyanogenMod/android_external_ffmpeg" revision="staging/cm-14.0" remote="github" />
+  <project path="external/stagefright-plugins" name="CyanogenMod/android_external_stagefright-plugins" revision="staging/cm-14.0" remote="github" />
+  <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="staging/cm-14.0" remote="github" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
