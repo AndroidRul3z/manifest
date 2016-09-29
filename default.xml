@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project name="platform_build" path="build" groups="pdk,tradefed" remote="rro" >
+  <project name="android_build" path="build" groups="pdk,tradefed" remote="github" revision="android-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -27,14 +27,14 @@
   
   <!-- AOSP-OMS -->
   
-  <project path="frameworks/base" name="platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="frameworks/base" name="AndroidRul3z/platform_frameworks_base" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project name="platform_packages_apps_Snap" path="packages/apps/Snap" groups="pdk" remote="rro" />
+  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" groups="pdk" remote="rro" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="system/core" name="platform_system_core" groups="pdk" remote="rro" />
-  <project path="frameworks/av" name="platform_frameworks_av" groups="pdk" remote="rro" />
+  <project path="system/core" name="AndroidRul3z/android_system_core" groups="pdk" remote="github" revision="android-n" />
+  <project path="frameworks/av" name="AndroidRul3z/platform_frameworks_av" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="rro" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
@@ -49,12 +49,12 @@
   <project path="bootable/recovery" name="platform_bootable_recovery" groups="pdk" remote="rro" />
   <project path="bionic" name="platform_bionic" groups="pdk" remote="rro" />
   <project path="art" name="platform_art" groups="pdk" remote="rro" />
-  <project name="platform_vendor_aosp" path="vendor/aosp" remote="rro" />
-  <project name="manifest" path="manifest" remote="rro" />
+  <project path="vendor/purity" name="AndroidRul3z/android_vendor_purity" remote="github" revision="android-n" />
+  <project path="manifest" name="AndroidRul3z/manifest" remote="github" revision="android-n" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="system/extras" name="platform_system_extras" remote="rro" />
   <project path="system/media" name="platform_system_media" remote="rro" />
-  <project path="packages/apps/Settings" name="platform_packages_apps_Settings" groups="pdk-fs" remote="rro" />
+  <project path="packages/apps/Settings" name="AndroidRul3z/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-n" />
   <project path="external/f2fs-tools" name="platform_external_f2fs-tools" groups="pdk" remote="rro" />
   <project path="external/ipsec-tools" name="platform_external_ipsec-tools" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/apps/PhoneCommon" name="platform_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="rro" />
@@ -147,6 +147,7 @@
   <project path="device/generic/qemu" name="device/generic/qemu" />
   <project path="device/generic/x86" name="device/generic/x86" groups="pdk" />
   <project path="device/generic/x86_64" name="device/generic/x86_64" groups="pdk" />
+  <project path="device/google/contexthub" name="device/google/contexthub" groups="device" />
   <project path="device/google/accessory/arduino" name="device/google/accessory/arduino" groups="device" />
   <project path="device/google/accessory/demokit" name="device/google/accessory/demokit" groups="device" />
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu,broadcom_pdk,generic_fs" />
@@ -612,7 +613,13 @@
   <project path="vendor/codeaurora/telephony" name="CyanogenMod/android_vendor_codeaurora_telephony" revision="staging/cm-14.0" remote="github" />
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="staging/cm-14.0" remote="github" />
 
+  <!-- LG-G3 Specific -->
+  <project name="android_device_lge_d855" path="device/lge/d855" remote="github" />
+  <project name="android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="android-n" />
+  <project name="android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="android-n" />
+  <project name="AOSP-G3/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="nougat" />
+
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
-	
+
 </manifest>
