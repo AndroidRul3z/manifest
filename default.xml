@@ -15,7 +15,7 @@
            remote="aosp"
            sync-j="4" />
 
-  <project name="android_build" path="build" groups="pdk,tradefed" remote="github" revision="android-n" >
+  <project path="build" name="AndroidRul3z/android_build" groups="pdk,tradefed" remote="github" revision="android-n" >
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
   <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
@@ -116,7 +116,7 @@
   <project path="hardware/cyanogen" name="CyanogenMod/android_hardware_cyanogen" revision="staging/cm-14.0" remote="github" />
   <project path="external/flac" name="CyanogenMod/android_external_flac" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/libnfc-nci" name="CyanogenMod/android_external_libnfc-nci" groups="pdk" remote="github" revision="staging/cm-14.0" />
-  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_libnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
+  <project path="external/libnfc-nxp" name="CyanogenMod/android_external_lib/purity-devicesnfc-nxp" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/tinyalsa" name="CyanogenMod/android_external_tinyalsa" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/tinycompress" name="CyanogenMod/android_external_tinycompress" groups="pdk" remote="github" revision="staging/cm-14.0" />
   <project path="external/toybox" name="CyanogenMod/android_external_toybox" groups="pdk" remote="github" revision="staging/cm-14.0" />  
@@ -601,10 +601,10 @@
   <project path="vendor/qcom/opensource/bluetooth" name="CyanogenMod/android_packages_apps_BluetoothExt" revision="staging/cm-14.0" remote="github" />
 
   <!-- LG-G3 Specific -->
-  <project name="purity-devices/android_device_lge_d855" path="device/lge/d855" remote="github" />
-  <project name="purity-devices/android_device_lge_g3-common" path="device/lge/g3-common" remote="github" revision="android-n" />
-  <project name="purity-devices/android_kernel_lge_g3" path="kernel/lge/g3" remote="github" revision="android-n" />
-  <project name="AOSP-G3/proprietary_vendor_lge" path="vendor/lge" remote="github" revision="nougat" />
+  <project path="device/lge/d855" name="purity-devices/android_device_lge_d855"  remote="github" revision="android-n" />
+  <project path="device/lge/g3-common" name="purity-devices/android_device_lge_g3-common"  remote="github" revision="android-n" />
+  <project path="kernel/lge/g3" name="purity-devices/android_kernel_lge_g3" remote="github" revision="android-n" />
+  <project path="vendor/lge" name="AOSP-G3/proprietary_vendor_lge"  remote="github" revision="nougat" />
 
   <!-- masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
