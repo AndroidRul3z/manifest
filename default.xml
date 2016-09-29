@@ -31,14 +31,14 @@
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="packages/apps/Snap" name="platform_packages_apps_Snap" groups="pdk" remote="rro" />
+  <project path="packages/apps/Snap" name="android_packages_apps_Snap" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/apps/Bluetooth" name="platform_packages_apps_Bluetooth" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/core" name="AndroidRul3z/android_system_core" groups="pdk" remote="github" revision="android-n" />
   <project path="frameworks/av" name="AndroidRul3z/platform_frameworks_av" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/apps/Nfc" name="platform_packages_apps_Nfc" groups="apps_nfc,pdk-fs" remote="rro" />
   <project path="frameworks/opt/net/wifi" name="platform_frameworks_opt_net_wifi" groups="pdk" remote="rro" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
-  <project path="frameworks/native" name="platform_frameworks_native" groups="pdk" remote="rro" />
+  <project path="frameworks/native" name="AndroidRul3z/android_frameworks_native" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="frameworks/opt/telephony" name="platform_frameworks_opt_telephony" groups="pdk" remote="rro" />
   <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="rro" />
@@ -467,7 +467,7 @@
   <project path="packages/apps/EmergencyInfo" name="platform/packages/apps/EmergencyInfo" />
   <project path="packages/apps/ExactCalculator" name="platform/packages/apps/ExactCalculator" groups="pdk-fs" />
   <project path="packages/apps/Gallery" name="platform/packages/apps/Gallery" groups="pdk-fs" />
-  <project path="packages/apps/Gallery2" name="platform/packages/apps/Gallery2" groups="pdk-fs" />
+  <project path="packages/apps/Gallery2" name="AndroidRul3z/android_packages_apps_Gallery2" groups="pdk-fs" remote="github" revision="android-n" />
   <project path="packages/apps/HTMLViewer" name="platform/packages/apps/HTMLViewer" groups="pdk-fs" />
   <project path="packages/apps/KeyChain" name="platform/packages/apps/KeyChain" groups="pdk-fs" />
   <project path="packages/apps/Launcher2" name="platform/packages/apps/Launcher2" groups="pdk-fs" />
