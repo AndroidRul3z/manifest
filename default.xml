@@ -588,7 +588,7 @@
   <project path="packages/apps/Settings" name="AndroidRul3z/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-n" />
   <project path="packages/apps/Snap" name="AndroidRul3z/android_packages_apps_Snap" groups="pdk" remote="github" revision="android-n" />
   <project path="packages/services/Telecomm" name="platform_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="rro" />
-  <project path="packages/services/Telephony" name="platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
+  <project path="packages/services/Telephony" name="AndroidRul3z/platform_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="packages/providers/MediaProvider" name="platform_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
