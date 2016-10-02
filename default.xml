@@ -96,6 +96,7 @@
   <project path="external/ant-wireless/ant_service" name="CyanogenMod/android_external_ant-wireless_ant_service" revision="cm-14.0" remote="github" />
   <project path="external/ant-wireless/antradio-library" name="CyanogenMod/android_external_ant-wireless_antradio-library" revision="cm-14.0" remote="github" />
   <project path="external/brctl" name="CyanogenMod/android_external_brctl" revision="cm-14.0" remote="github" />
+  <project path="external/bash" name="CyanogenMod/android_external_bash" revision="cm-14.0" remote="github" />
   <project path="external/connectivity" name="CyanogenMod/android_external_connectivity" revision="cm-14.0" remote="github" />
   <project path="external/ebtables" name="CyanogenMod/android_external_ebtables" revision="cm-14.0" remote="github" />
   <project path="external/gson" name="CyanogenMod/android_external_gson" revision="cm-14.0" remote="github" />
@@ -369,7 +370,6 @@
   <project path="external/vulkan-validation-layers" name="platform/external/vulkan-validation-layers" />
   <project path="external/webp" name="platform/external/webp" groups="pdk,qcom_msm8x26" />
   <project path="external/webrtc" name="platform/external/webrtc" groups="pdk" />
-  <project path="external/wpa_supplicant_8" name="platform/external/wpa_supplicant_8" groups="pdk" />
   <project path="external/xmlrpcpp" name="platform/external/xmlrpcpp" groups="pdk" />
   <project path="external/xmlwriter" name="platform/external/xmlwriter" groups="pdk-cw-fs,pdk-fs" />
   <project path="external/xmp_toolkit" name="platform/external/xmp_toolkit" groups="pdk-cw-fs,pdk-fs" />
@@ -593,12 +593,13 @@
   <project path="packages/providers/TelephonyProvider" name="platform_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
   <project path="system/bt" name="platform_system_bt" groups="pdk" remote="rro" />
   <project path="system/core" name="AndroidRul3z/android_system_core" groups="pdk" remote="github" revision="android-n" />
-  <project path="system/extras" name="platform_system_extras" remote="rro" />
+  <project path="system/extras" name="AndroidRul3z/android_system_extras" remote="github" revision="android-n" />
   <project path="system/media" name="platform_system_media" remote="rro" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
   <project path="system/vold" name="platform_system_vold" groups="pdk" remote="rro" />
   <project path="vendor/lge" name="AOSP-G3/proprietary_vendor_lge"  remote="github" revision="nougat" />
   <project path="vendor/purity" name="AndroidRul3z/android_vendor_purity" remote="github" revision="android-n" />
+  <project path="external/wpa_supplicant_8" name="AndroidRul3z/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="android-n" />
 
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
