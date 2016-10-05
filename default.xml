@@ -11,7 +11,7 @@
            fetch="https://github.com/AOSP-RRO"
 	   revision="nougat" />
 	   
-  <default revision="refs/tags/android-7.0.0_r6"
+  <default revision="refs/tags/android-7.0.0_r14"
            remote="aosp"
            sync-j="4" />
 
@@ -594,8 +594,8 @@
   <project path="vendor/lge" name="AndroidRul3z/android_vendor_lge_d855"  remote="github" revision="android-n" />
   <project path="vendor/purity" name="AndroidRul3z/android_vendor_purity" remote="github" revision="android-n" />
   <project path="external/wpa_supplicant_8" name="AndroidRul3z/android_external_wpa_supplicant_8" groups="pdk" remote="github" revision="android-n" />
-  <project path="packages/apps/MusicFX" name="android_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="android-n" />
-  <project path="packages/apps/Stk" name="android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="android-n" />
+  <project path="packages/apps/MusicFX" name="AndroidRul3z/android_packages_apps_MusicFX" groups="pdk-fs" remote="github" revision="android-n" />
+  <project path="packages/apps/Stk" name="AndroidRul3z/android_packages_apps_Stk" groups="apps_stk,pdk-fs" remote="github" revision="android-n" />
 
   <!-- Masquerade -->
   <project path="packages/apps/masquerade" name="TeamSubstratum/masquerade" remote="github" revision="master" />
