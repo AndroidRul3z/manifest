@@ -575,7 +575,7 @@
   <project path="kernel/lge/g3" name="purity-devices/android_kernel_lge_g3" remote="github" revision="android-n" />
   <project path="libcore" name="AndroidRul3z/android_libcore" groups="pdk" remote="github" revision="android-n" />
   <project path="manifest" name="AndroidRul3z/manifest" remote="github" revision="android-n" />
-  <project path="packages/apps/Dialer" name="AndroidRul3z/android_packages_apps/Dialer" groups="pdk-fs" remote="github" revision="android-n" />
+  <project path="packages/apps/Dialer" name="AndroidRul3z/android_packages_apps_Dialer" groups="pdk-fs" remote="github" revision="android-n" />
   <project path="packages/apps/PhoneCommon" name="AndroidRul3z/android_packages_apps_PhoneCommon" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="packages/apps/Settings" name="AndroidRul3z/android_packages_apps_Settings" groups="pdk-fs" remote="github" revision="android-n" />
   <project path="packages/apps/Snap" name="AndroidRul3z/android_packages_apps_Snap" groups="pdk" remote="github" revision="android-n" />
@@ -583,7 +583,7 @@
   <project path="packages/services/Telecomm" name="AndroidRul3z/android_packages_services_Telecomm" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="packages/services/Telephony" name="AndroidRul3z/android_packages_services_Telephony" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="packages/providers/MediaProvider" name="AndroidRul3z/android_packages_providers_MediaProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
-  <project path="packages/providers/TelephonyProvider" name="AndroidRul3z/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="rro" />
+  <project path="packages/providers/TelephonyProvider" name="AndroidRul3z/android_packages_providers_TelephonyProvider" groups="pdk-cw-fs,pdk-fs" remote="github" revision="android-n" />
   <project path="system/core" name="AndroidRul3z/android_system_core" groups="pdk" remote="github" revision="android-n" />
   <project path="system/extras" name="AndroidRul3z/android_system_extras" remote="github" revision="android-n" />
   <project path="system/sepolicy" name="platform_system_sepolicy" groups="pdk" remote="rro" />
